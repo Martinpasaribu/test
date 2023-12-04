@@ -1,5 +1,5 @@
 import React from 'react'
-// import Typed from 'react-typed';
+import Typed from 'react-typed';
 
 
 const Hero = () => {
@@ -11,6 +11,12 @@ const Hero = () => {
             <div className='flex justify-center items-center'>
             <p className='md:text-3xl sm:text-4xl text-xl font-bold '> Fast, Flexible Use</p> 
            
+            <Typed className='md:text-3xl sm:text-4xl text-xl font-bold md:pl-4 pl-2' 
+            strings={[' Website', 'IoT', 'Data']} 
+            typeSpeed={120} 
+            backSpeed={130} 
+            loop 
+            />
             
             </div>
             <p className='md:text-xl sm:text-1xl  font-bold text-gray-500'> Mengembangkan Ilmu Teknologi yang ada sekarang dengan cara berfikir Komputasional</p>
