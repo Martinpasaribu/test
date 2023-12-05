@@ -1,7 +1,10 @@
 import React from 'react'
 // import Typed from 'react-typed';
 import logo from '../assets/Logo_main.png';
+import TypeIt from "typeit-react";
 
+
+;
 const Hero = () => {
   return (
     <div className="text-white">
@@ -14,7 +17,9 @@ const Hero = () => {
             <div className='flex justify-center items-center'>
             <p className='md:text-3xl sm:text-4xl text-xl font-bold '> Fast, Flexible Use</p> 
            
-
+            <div className="App">
+              <TypeIt>This will be typed in a `span` element!</TypeIt>
+              </div>
             
             </div>
             <p className='md:text-xl sm:text-1xl  font-bold text-gray-500'> Mengembangkan Ilmu Teknologi yang ada sekarang dengan cara berfikir Komputasional</p>
