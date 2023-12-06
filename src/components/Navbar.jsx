@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import logo from '../assets/Logo_main.png';
+import { Routes,Route, Link, Outlet  } from 'react-router-dom';
 
 
 
@@ -21,8 +22,8 @@ const Navbar = () => {
            
             <ul className='hidden md:flex'>
               <li className='p-4'> Resource</li>
-              <li className='p-4'> Company</li>
-              <li className='p-4'> Home </li>
+              <li className='p-4'> <Link to='/Api'> API </Link> </li>
+              <li className='p-4'> <Link to='/'> Home </Link> </li>
               <li className='p-4'> About</li>
               <li className='p-4'> Contac</li>
             </ul>
@@ -35,8 +36,8 @@ const Navbar = () => {
           <h1 className='w-full text-3xl font-bold text-[#05386b] m-4'> Martin Pasaribu </h1>
 
           <ul className=' uppercase m-4'>
-            <li className='p-4 border-b border-gray-600' > Resource</li>
-            <li className='p-4 border-b border-gray-600' > Company</li>
+            <li className='p-4 border-b border-gray-600' > <Link to='/'> Home </Link></li>
+            <li className='p-4 border-b border-gray-600' > <Link to='/Api'> API </Link></li>
             <li className='p-4 border-b border-gray-600' > Home </li>
             <li className='p-4 border-b border-gray-600' > About</li>
             <li className='p-4'> Contac</li>
