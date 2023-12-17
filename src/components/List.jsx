@@ -1,5 +1,6 @@
 import React from 'react'
 import Cs1 from '../assets/cm1.jpg'
+import prt from '../assets/prt.png'
 
 
 
@@ -17,7 +18,7 @@ const List = () => {
     <div className="w-full py-[10rem] px-4 bg-[#05386b]"> 
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8  " >
             <div className="w-full shadow-xl flex bg-[#5cd895] flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">  
-                <img className="w-20 mx-auto mt-[-3rem] bg-white" src={Cs1} all="/" />
+                <img className="w-40 mx-auto mt-[-3rem] bg-white" src={prt} all="/" />
                 <h2 className="text-2xl font-bold text-center py-8"> Web Portofolio  </h2>
                 <p className=" text-center text-4xl font-bold ">500 K </p>
                 <div className="text-center font-medium">
