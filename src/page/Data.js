@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet"
-import { SaveAreaView } from "react"
+import { SafeAreaView } from "react"
 export default function data(){
     return (
       <section>
@@ -8,9 +8,9 @@ export default function data(){
         </Helmet>
         <h1> Halaman Data  </h1>
 
-        <SaveAreaView>
+        <SafeAreaView>
         
-        </SaveAreaView>
+        </SafeAreaView>
       </section>
     )
   }
