@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet"
-import { SaveAreaView, StyleSheet, View, Text, Image } from "react-native"
+import { SaveAreaView } from "react"
 export default function data(){
     return (
       <section>
